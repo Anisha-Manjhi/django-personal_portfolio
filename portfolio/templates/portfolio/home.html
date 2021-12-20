@@ -3,22 +3,23 @@
 {% block content %}
 
     {% load static %}
-<div class="row justify-content-center my-4">
-    <h1>Welcome to My world!!</h1>
-    <br>
-    <img src="{% static 'portfolio/photo.jpeg' %}" >
-
-
-
+<div class="me-row">
+    <div class="intro-column">
+        <h1>Welcome to My world!!</h1>
+        <p>Hi. I am Anisha</p>
+        <p>I am an eager to learn developer who likes working on python. Check out some of my work below and feel free to get in touch if you are interested to work with me.</p>
+    </div>
+    <div class="photo-column">   
+        <img src="{% static 'portfolio/photo.jpeg' %}" >
+    </div>
 </div>
 
-
-<div class="row ">
+<div class="project-row ">
     
     <h2 class="heading">My Projects</h2>
 
     {% for project in projects %}
-    <div class="col-lg-4 col-md-6">
+    <div class="project-column">
 
     {% if project.url %}
 
