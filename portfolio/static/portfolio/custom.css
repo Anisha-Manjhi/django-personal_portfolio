@@ -31,3 +31,26 @@ a.btn.btn-primary.btn-lg.active {
     padding: 0.25rem 2.5rem;
     border-radius: 0.7rem;
 }
+.me-row{
+    display:flex;
+}
+.intro-column{
+    display:block;
+    max-width:48%;
+    background-colour:rgba(4, 34, 31, 0.24);
+}
+.photo-column{
+    display:block;
+    max-width:48%;
+}
+.project-column{
+    display:block;
+    max-width:48%;
+    background-colour:rgba(4, 34, 31, 0.24);
+}
+.social-icons{
+    justify-content:center;
+}
+footer{
+    background-image:url("footerbg.jpeg");
+}
